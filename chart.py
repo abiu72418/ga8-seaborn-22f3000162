@@ -1,4 +1,4 @@
-# Purchase Amount Distribution by Customer Segment
+# Response Time Distribution by Support Channel
 # Generated for: 22f3000162@ds.study.iitm.ac.in
 
 import seaborn as sns
@@ -16,8 +16,8 @@ data = pd.DataFrame({
 })
 
 plt.figure(figsize=(8, 8))
-sns.boxplot(data=data, x='category', y='value', palette='viridis')
-plt.title('Purchase Amount Distribution by Customer Segment', fontsize=16, pad=20)
+sns.violinplot(data=data, x='category', y='value', palette='viridis')
+plt.title('Response Time Distribution by Support Channel', fontsize=16, pad=20)
 plt.xlabel('Category', fontsize=12)
 plt.ylabel('Value', fontsize=12)
 plt.tight_layout()
