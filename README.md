@@ -1,2 +1,5 @@
-# ga8-seaborn-22f3000162
-GA8 Seaborn Visualization
+# Seaborn Visualization
+
+Submitted by: 22f3000162@ds.study.iitm.ac.in
+
+Chart Type: boxplot
