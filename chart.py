@@ -1,5 +1,4 @@
 # Response Time Distribution by Support Channel
-# Generated for: 22f3000162@ds.study.iitm.ac.in
 
 import seaborn as sns
 import matplotlib.pyplot as plt
@@ -22,4 +21,4 @@ plt.xlabel('Category', fontsize=12)
 plt.ylabel('Value', fontsize=12)
 plt.tight_layout()
 plt.savefig('chart.png', dpi=64, bbox_inches='tight')
-print("Chart saved as chart.png (512x512 pixels)")
+print("Chart saved as chart.png")
